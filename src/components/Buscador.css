@@ -1,0 +1,28 @@
+.seccion-buscador {
+    width: 400px;
+    height: 500px;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/mariano-baraldi-IIBRFPj5LQk-unsplash.jpg");
+    background-size: cover;  
+}
+.seccion-buscador > h3 {
+    color: white;
+    padding-bottom: 250px;
+}
+
+.resultado-buscador{
+    padding-top: 30px;
+}
+
+.buscador {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
