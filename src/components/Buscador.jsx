@@ -33,12 +33,12 @@ function Buscador() {
   );
 
   return (
-    <>
+    <section className="buscador">
       <section className="seccion-buscador">
-        <h1>Buscador</h1>
+        <h3>Buscador Farmacia de Turno</h3>
         <InputGroup
           size="sm"
-          className="mb-2 input-farmcia"
+          className="mb-2 input-farmacia"
           value={farmacia}
           onChange={inputFarmacia}
         >
@@ -71,7 +71,7 @@ function Buscador() {
       </section>
       <section className="resultado-buscador">
         {farmacia ? (
-          <Table striped bordered hover variant="dark">
+          <Table striped bordered hover variant="primary" size="sm">
             <thead>
               <tr>
                 <th>Farmacia</th>
@@ -101,7 +101,7 @@ function Buscador() {
           </Table>
         ) : null}
         {comuna ? (
-          <Table striped bordered hover variant="dark">
+          <Table striped bordered hover variant="primary" size="sm">
             <thead>
               <tr>
                 <th>Farmacia</th>
@@ -131,7 +131,7 @@ function Buscador() {
           </Table>
         ) : null}
       </section>
-    </>
+    </section>
   );
 }
 
