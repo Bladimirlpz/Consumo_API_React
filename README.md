@@ -4,6 +4,7 @@ La APP va a consumir una API de Farmacias de turnos en Chile.
  
 API
 End Point = "https://midas.minsal.cl/farmacia_v2/WS/getLocalesTurnos.php"
+Enlace del Youtube = https://youtu.be/dmyE2l9yBK4
 
 Requerimientos
 
